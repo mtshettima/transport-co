@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="transport.css">
+    <script src="transport.js"></script>
+</head>
+<body class="prom">
+
+    <header>
+        <img src="logo.png.jpg" class = logo>
+        <h1>Special Promotions</h1>
+        <nav id="navigate">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="Fleet.html">Fleet</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="promotions.html" class="active">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="promotion-banner">
+        <img src="promotion.jpg" class="banner">
+        <h2>Exclusive Discounts on Select Routes!</h2>
+        <p>Book now and enjoy special discounts on our premium routes. Limited time offer!</p>
+    </section>
+
+    <section class="promotion-details">
+        <article>
+            <h3>Route 1: City to City Express</h3>
+            <p>Use code <strong>EXPRESS15</strong> to get 15% off on all City to City Express bookings.</p>
+            <p>Valid until [31/12/2023].</p>
+            <button onclick="redirectToBooking('EXPRESS15')">Book Now</button>
+        </article>
+
+        <article>
+            <h3>Airport Shuttle Service</h3>
+            <p>Special promotion for airport transfers. Get a flat 2000NGN discount on your next airport shuttle booking.</p>
+            <p>Use code <strong>AIRPORT10</strong>.</p>
+            <button onclick="redirectToBooking('AIRPORT10')">Book Now</button>
+        </article>
+    </section>
+</body>
+</html>

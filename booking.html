@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="transport.css">
+    <script type="text/javascript" src="transport.js"></script>
+    <title>MAKE A BOOKING</title>
+</head>
+<body class="book">
+
+    
+        <img src="logo.png.jpg" class = logo>
+        <div class="pages">
+        <h1>MTS & CO Transport</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="Fleet.html">Fleet</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </nav>
+    
+
+    <h1>MAKE A BOOKING</h1>
+    </div>
+
+    <form id="bookingForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+       
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="button" onclick="submitBooking()">Submit Booking</button>
+    </form>
+</body>
+</html>
